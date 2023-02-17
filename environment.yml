@@ -1,7 +1,6 @@
 name: base
 channels:
   - conda-forge
-  - gimli
 dependencies:
   - numpy
-  - pygimli
+  - gimli::pygimli=1.3.1
