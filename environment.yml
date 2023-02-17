@@ -1,5 +1,7 @@
 name: base
 channels:
   - conda-forge
+  - gimli
 dependencies:
   - numpy
+  - pygimli
